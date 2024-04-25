@@ -1,0 +1,55 @@
+.cardSection{
+    display: flex;
+    flex-direction: row;
+
+    .image img{
+        display: flex;
+         margin-top:%;
+        height: 80vh;
+        width: 45vw;
+        margin: 3em
+    }
+    .image{
+        transform: translateX(30px);
+        
+    }
+
+    .content-CS{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding:2vh 1vw ;
+         justify-content: space-evenly;
+         background-color: rgb(245, 247, 247);
+         margin-top: 0.9%;
+         margin-left: -5%;
+        width: 70vw;
+
+        .heading-CS{
+             font-size: 2em;
+             text-align: center;
+             font-weight: 700;
+             margin-bottom: -10%;
+             margin-left: 5vw;
+        }
+        .para-CS{
+            font-size: 1.5em;
+             text-align: start;
+             font-weight: 100;
+             margin-bottom: -10%;
+             margin-left: 5vw;
+        }
+
+        .button-CS button {
+        border:none;
+        color:#e3eafc;
+        background-color: #1d4ed8;
+        border-radius: 5px;
+        padding:1em 2em;
+        font-size: 1em;
+        }
+
+    }
+
+}

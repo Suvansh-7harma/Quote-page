@@ -1,0 +1,44 @@
+.heroSection{
+    background-image: url(../Assets/heroSection.jpg);
+    height: 91vh;
+    width: 98.8vw;
+    
+    .section{
+        background-color: #e3eafc10;
+        height: 45vh;
+        width:40vw;
+        transform: translate(30%, 50%);
+        border-radius: 10px;
+        box-shadow:inset 5px 5px 10px #1d4fd828, inset -5px -5px 10px #1d4fd828;
+
+    }
+    .content-HS{
+        text-align:center;
+        padding-top: 0.1em;
+        
+    }
+    .para-HS{
+        text-align: center;
+        text-decoration: wavy;
+    }
+    .buttons-HS{
+        display: flex;
+        justify-content: center;
+        padding:3% 24% ;
+        justify-content: space-around;
+    }
+    .searchNow{
+        border:none;
+        color:#e3eafc;
+        background-color: #1d4ed8;
+        border-radius: 5px;
+        padding:0.7em
+    }
+    .Know-more{
+        border:none;
+        color:#e3eafc;
+        background-color: #1d4ed8;
+        border-radius: 5px;
+        padding:0.7em
+    }
+}
